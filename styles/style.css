@@ -26,15 +26,15 @@
     box-sizing: border-box;
 }
 * {
-    padding: 0;
     margin: 0;
-    color: var(--color-text);
+    padding: 0;
     outline: none;
-    font-family: 'JosefinSans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif sans-serif;
+    color: var(--color-text);
     font-size: var(--default-font-size);
-    will-change: font;
-    font-feature-settings: normal;
+    font-family: 'JosefinSans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif sans-serif;
     font-variation-settings: normal;
+    font-feature-settings: normal;
+    will-change: font;
     -webkit-tap-highlight-color: transparent;
 }
 html {
@@ -43,9 +43,9 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
 }
@@ -82,19 +82,19 @@ textarea {
     border-radius: 0;
 }
 .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 8px;
+    width: 100%;
+    max-width: 94px;
+    border-radius: 2px;
     color: var(--color-white);
     font: var(--font-button-default);
-    border-radius: 2px;
-    max-width: 94px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .btn.btn--primary {
-    background: var(--color-accent);
     padding: 16px;
     max-width: 163px;
+    background: var(--color-accent);
     font: var(--font-button-small);
 }

@@ -1,0 +1,26 @@
+{
+  "name": "hekto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"html-check": "w3c-html-validator",
+	"css-check": "stylelint \"styles/*.css\"",
+	"css-fix": "stylelint \"styles/*.css\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlsSayMyName/Hekto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PlsSayMyName/Hekto/issues"
+  },
+  "homepage": "https://github.com/PlsSayMyName/Hekto#readme",
+  "devDependencies": {
+    "stylelint": "^16.7.0",
+    "stylelint-order": "^6.0.4"
+  }
+}
