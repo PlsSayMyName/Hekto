@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-	"html-check": "w3c-html-validator",
-	"css-check": "stylelint \"styles/*.css\"",
-	"css-fix": "stylelint \"styles/*.css\" --fix"
+    "html-check": "w3c-html-validator",
+    "css-check": "stylelint \"styles/*.css\"",
+    "css-fix": "stylelint \"styles/*.css\" --fix"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/PlsSayMyName/Hekto#readme",
   "devDependencies": {
     "stylelint": "^16.7.0",
-    "stylelint-order": "^6.0.4"
+    "stylelint-order": "^6.0.4",
+    "w3c-html-validator": "^1.8.1"
   }
 }
