@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
 	"html-check": "w3c-html-validator",
 	"css-check": "stylelint \"styles/*.css\"",
 	"css-fix": "stylelint \"styles/*.css\" --fix"
