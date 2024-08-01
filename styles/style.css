@@ -118,25 +118,25 @@ a {
 }
 
 .container {
-    max-width: 1177px;
     margin: 0 auto;
     width: 100%;
+    max-width: 1177px;
 }
 
 .site-header .header-top {
-    background-color: #7E33E0;
     padding: 14px 0;
+    background-color: #7E33E0;
 }
 .site-header .header-top a {
     color: var(--color-white);
-    font-family: Arial, "Josefin Sans", sans-serif;
-    font-size: 16px;
     line-height: 18.75px;
+    font-size: 16px;
+    font-family: Arial, "Josefin Sans", sans-serif;
 }
 .site-header .header-top .container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     gap: 48px;
 
 }
@@ -148,8 +148,8 @@ a {
 .site-header .header-top .container .connection {
     display: flex;
     align-items: center;
-    max-height: 16px;
     gap: 10px;
+    max-height: 16px;
 
 }
 
@@ -164,8 +164,8 @@ a {
     gap: 2px;
 }
 .site-header .header-top .container .header-right button {
-    background: transparent;
     border: unset;
+    background: transparent;
 }
 .header-bottom {
     padding: 19px 0;
@@ -191,44 +191,39 @@ a {
 
 .header-bottom .container .header-bottom-row .header-nav ul li a {
     color: #0D0E43;
-    font-family: Arial, "Lato", sans-serif;
+    line-height: 20px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
-    cursor: pointer;
+    font-family: Arial, "Lato", sans-serif;
     transition: 0.25s;
+    cursor: pointer;
     
 }
 .header-bottom .container .header-bottom-row .header-nav ul li a:hover {
     color: var(--color-accent);
 }
-.header-bottom .container .header-bottom-row .header-nav ul li a:nth-child(1) {
-    background-image: url("./images/icons/akar-icons_chevron-down(1).svg");
-    background-repeat: no-repeat;
-    background-position: 100%;
 
-}
 .header-bottom .container .header-bottom-row .form {
     display: flex;
     align-items: center;
-    border-color: #E7E6EF;
-    border-width: 2px;
-    height: 40px;
     margin-left: auto;
+    height: 40px;
+    border-width: 2px;
+    border-color: #E7E6EF;
 }
 .header-bottom .container .header-bottom-row .form input {
-    border: 2px solid #E7E6EF;
     height: 40px;
+    border: 2px solid #E7E6EF;
 }
 .header-bottom .container .header-bottom-row .form button {
-    max-width: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     min-width: 51px;
+    max-width: 51px;
     height: 40px;
-    background: var(--color-accent);
     border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: var(--color-accent);
 }
 
