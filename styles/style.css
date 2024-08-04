@@ -202,7 +202,12 @@ a {
 .header-bottom .container .header-bottom-row .header-nav ul li a:hover {
     color: var(--color-accent);
 }
-
+.header-bottom .container .header-bottom-row .header-nav ul li .arrow {
+display: flex;
+align-items: center;
+gap: 2px;
+height: 100%;
+}
 .header-bottom .container .header-bottom-row .form {
     display: flex;
     align-items: center;
